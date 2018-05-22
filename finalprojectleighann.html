@@ -15,6 +15,36 @@
 <p> On this website, you will be learning about 5 types of jellyfish species that I have 
 picked out. Each page is involved with a different species and is filled with facts and 
 other information abou them. You can also find what body of water that they live in. <p>
+	 <script>
+  // add leading zero's to minutes and seconds
+  if (minutes < 10) { 
+    minutes = '0' + minutes;
+  }
+  if (seconds < 10) { 
+    seconds = '0' + seconds;
+  }				
+
+  // get time of day (am or pm) 
+  if (hours >= 12 && hours < 24) { 
+    var timeOfDay = 'pm';
+  }
+  else { 
+    var timeOfDay = 'am'; 
+  }
+				
+  // convert hours from 24-hour time to 12-hour time
+  if (hours > 12) { 
+    hours = hours - 12;
+  }
+  alert ('Javascript is working');
+{
+  function showAlert() }
+    alert ('function showAlert was called');
+    var myText = "WELCOME TO MY PAGE!";
+
+	alert (myText);
+  {
+  </script>
 <button onclick="showAlert()">Show alert</button> 
 <div id="clock">
 <body onload="updateTime()">
