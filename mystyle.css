@@ -1,7 +1,7 @@
 body {
-	color: blue;
+	color: black;
 	padding: 1em;
-	border: solid thick purple;
+	border: solid thick blue;
 	margin: 0 auto;
 	width: 70%;
 	min-width: 720px;
@@ -38,8 +38,8 @@ nav ul li a {
 	border-top-right-radius: 1em 1em; /* another rounded corner! */
 }
 nav ul li a: hover, nav ul li a:focus{
-	color: blue;
-	background-color: white;
+	color: purple;
+	background-color: blue;
 	font-weight: bold;
 	clear: left;
 }
