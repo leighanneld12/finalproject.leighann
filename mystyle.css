@@ -2,7 +2,7 @@ body {
 	color: black;
 	background-color: blue;
 	padding: 1em;
-	border: blue;
+	border: solid thick blue;
 	margin: 0 auto;
 	width: 70%;
 	min-width: 720px;
@@ -32,15 +32,15 @@ nav ul li {
 nav ul li a {
 	padding: 0.25em 1em;
 	text-decoration: none; /* no underline */
-	background-color: #EBF5FF; /* dark blue */
+	background-color: #EBF5FF; /* solid dark blue */
 	color: #4312AE; /* dark blue */
 	border: 2px solid black;
 	border-top-left-radius: 1em 1em; /* rounded corner! */
 	border-top-right-radius: 1em 1em; /* another rounded corner! */
 }
 nav ul li a: hover, nav ul li a:focus{
-	color:blue;
-	background-color: blue;
+	color: dark blue;
+	background-color: dark blue;
 	font-weight: bold;
 	clear: left;
 }
